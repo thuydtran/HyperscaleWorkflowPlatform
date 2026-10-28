@@ -41,7 +41,7 @@ jobs:
 
       # Step 4: Set up Docker Buildx (enables high-performance multi-layer caching)
       - name: Set up Docker Buildx
-        uses: actions/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v3
 
       # Step 5: Log in to the GitHub Container Registry (GHCR)
       - name: Log in to Container Registry
